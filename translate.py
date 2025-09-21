@@ -22,6 +22,7 @@ def convert_audio_to_text(recog, source):
     return recognized_text
 
 
+
 async def translate_and_speak():
 
     translator = Translator()
